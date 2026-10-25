@@ -112,3 +112,9 @@ The script stops if any filled prompt exceeds 5000 characters, because the noteb
 7. **Track status.** Keep the manifest updated per chapter (not-submitted, submitted, scheduled, generating, completed, failed) and inspect notebook state before resuming.
 8. **Rename by source.** For finished videos, open **More, View prompt and sources** to confirm the source, then **More, Rename** to the source stem without `.pdf`, for example `Chapter 07 - The Organization and Expression of Lymphocyte Receptor Genes`. Verify title and source after saving. Scheduled or generating entries may not offer Rename; defer them.
 9. **Report.** Save a screenshot of the video list and a status record. Report separate counts for finished, generating, scheduled, and unsubmitted chapters. A prompt file is preparation, not a video.
+
+## Contributors
+
+- [Nina Gilshteyn](https://github.com/NinaGilshteyn)
+- Codex (OpenAI), co-developed the `textbook-notebook-videos` skill
+- Claude Code (Anthropic), wrote this README
