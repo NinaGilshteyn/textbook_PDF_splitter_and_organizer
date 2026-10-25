@@ -12,6 +12,20 @@ A Codex skill (`textbook-notebook-videos`) that turns a bookmarked textbook PDF 
 
 The skill respects narrow requests: upload-only, videos-only, or rename-only requests stay narrow. A rename-only request does not authorize generating videos or rebuilding readers.
 
+## Screenshots
+
+**Power Annotate chapter reader** (audio playback, annotation tools, stickers)
+
+![Power Annotate reader](docs/screenshots/power-annotate-reader.png)
+
+**Start Here index** (per-chapter reader, PDF, and video links)
+
+![Start Here index](docs/screenshots/start-here-index.png)
+
+**Notebook with chapter PDFs as sources and Explainer videos in Studio**
+
+![Notebook video library](docs/screenshots/notebook-video-library.png)
+
 ## Requirements
 
 - Python 3 with [PyMuPDF](https://pymupdf.readthedocs.io/) (`pip install pymupdf`), imported as `pymupdf`.
